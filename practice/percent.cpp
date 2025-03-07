@@ -26,7 +26,7 @@ int main()
          cout<<"Third Division ";
      }
      else{
-       cout<<" fail";
+       cout<<"you are fail";
      }
     // cout<<result;
 
