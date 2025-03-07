@@ -23,10 +23,10 @@ int main()
      }
      else if(result >= 35 && result <= 50)
      {
-         cout<<"Thired Division ";
+         cout<<"Third Division ";
      }
      else{
-        fail
+       cout<<" fail";
      }
     // cout<<result;
 
