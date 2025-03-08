@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    int ph,m,c;
+    float ph,m,c,per;
     cout<<"Enter physics marks ";
     cin>>ph;
     cout<<"Enter maths marks ";
@@ -12,24 +12,40 @@ int main()
     cout<<"Enter chemistry marks ";
     cin>>c;
 
-     int total = ph + m + c ;
-     int result = total / 3;
+    if ((ph >= 0 && ph <= 100) && (m >= 0 && m <= 100) && (c >= 0 && c <= 100)){
+       // cout<<"valid number ";
+    }
+    else{
+        cout<<"invalid number\n";
+    }
 
-     if(result >= 60 && result <= 100){
-        cout<<"First Division ";
+
+
+    if(ph < 34 && m > 34 && c > 34){
+        cout<<"Supply in physics \n";
+    }
+    else if(m < 34 && ph > 34 && c > 34){
+        cout<<"Supply in maths\n";
+    }
+    else if(c < 34 && ph > 34 && m > 34){
+        cout<<"Supply in chemistry\n";
+    }
+
+    per = (ph + m + c)/3;
+    cout<<per<<"%\n";
+
+    if(per >= 60 && per <= 100){
+        cout<<"First Division \n";
      }
-     else if(result >= 50 && result <= 59){
-        cout<<"Second Division ";
+     else if(per >= 50 && per <= 59){
+        cout<<"Second Division \n";
      }
-     else if(result >= 35 && result <= 50)
+     else if(per >= 35 && per <= 50)
      {
-         cout<<"Third Division ";
+         cout<<"Third Division \n";
      }
      else{
-       cout<<"you are fail";
+       cout<<"you are fail\n";
      }
-    // cout<<result;
-
-
 
 }
