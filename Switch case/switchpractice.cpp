@@ -46,5 +46,10 @@ int main()
             cin>>number;
             cout<<number * number * number ;
         }
+
+    default:
+        {
+            cout<<"Invalid input";
+        }
     }
 }
