@@ -2,21 +2,23 @@
 using namespace std;
 
 int main(){
-  int password = 2025,psw;
-  int attempt = 3;
+  int psw;
+  int attempt = 1;
+  cout<<"Enter password\n";
 
 
-  while(attempt > 0){
-    cout<<"Enter password\n";
+  while(attempt <= 3){
     cin>>psw;
-    if(psw == password){
+    if(psw == 2025){
         cout<<"right password\n";
+        break;
     }
     else{
-            attempt--;
-       cout<<"wrong password\n";
+       cout<<"try again\n";
+    }
+    attempt++;
+    if(attempt == 4){
+        cout<<"Try another day\n";
     }
   }
-  cout<<"many attempt\n";
-
 }
