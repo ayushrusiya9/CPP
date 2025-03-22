@@ -7,6 +7,7 @@ int main()
     cout<<"Enter number\n";
     cin>>num;
 
+  /*
     do{
         if(num % i == 0){
             cout<<"number is not a prime number\n";
@@ -18,4 +19,8 @@ int main()
         }
         i++;
     }while(i * i <= num);
+    */
+
+
+    for(i; )
 }
