@@ -3,24 +3,22 @@ using namespace std;
 
 int main()
 {
-    int num, i=2;
-    cout<<"Enter number\n";
-    cin>>num;
-
-  /*
-    do{
-        if(num % i == 0){
-            cout<<"number is not a prime number\n";
-
+    int n = 3, k = 0, flag = 0;
+    
+    while(n <= 20){
+        k = n - 1;
+        while(k > 1){
+            if(n % k == 0)
+            {
+                flag = 1;
+                break;
+            }
+            k--;
         }
-        else
-        {
-            cout<<"number is prime\n";
+        if(flag == 0){
+            cout<<n<<"\t";
         }
-        i++;
-    }while(i * i <= num);
-    */
-
-
-    for(i; )
+        flag = 0;
+        n++;
+    }
 }
