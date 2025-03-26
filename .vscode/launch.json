@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ayush/OneDrive/Desktop/cpp",
-      "program": "c:/Users/ayush/OneDrive/Desktop/cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/ayush/OneDrive/Desktop/CPP/Loops/while",
+      "program": "c:/Users/ayush/OneDrive/Desktop/CPP/Loops/while/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
