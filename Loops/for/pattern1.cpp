@@ -25,10 +25,10 @@ int main()
     {
         // cout<<k*k<<" ";
         // cout<<k<<" ";
-        // cout<<c<<" ";
-        cout<<r<<" ";
+        cout<<c<<" ";
+        // cout<<r<<" ";
         // cout<<"*"<<"\t";
-        k++;
+        // k++;
     }
     cout<<"\n";
   }

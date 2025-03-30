@@ -8,25 +8,11 @@ int main()
     cout<<"Enter year: ";
     cin>>year;
 
-    if(year % 4 == 0 ){
-        if(year % 100 == 0)
-        {
-            if(year % 400 == 0)
-            {
-                cout<<"Year is leap year";
-            }
-            else
-                {
-                cout<<"year is not leap year";
-                }
-        }
-        else
-        {
-            cout<<"Year is leap year";
-        }
-    }
-    else{
-      cout<<"Year is not leap year";
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+    {
+        cout<<"leap year \n";
+    }else{
+        cout<<"Not leap year\n";
     }
 
 }
