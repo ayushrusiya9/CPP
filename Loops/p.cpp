@@ -6,7 +6,7 @@ int main()
    int n, r = 0, k;
    cout<<"Enter number\n";
    cin>>n;
-   k==n;
+   k=n;
 
    while(n > 0)
    {
