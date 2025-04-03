@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    /*
     int arr[10] =  {};//stored rest values are 0
     // int arr[10];//stored garbage value
     int s = sizeof(arr)/sizeof(arr[0]);//formula to calculate lenght of array
@@ -16,4 +17,18 @@ int main()
     for(int i = 0; i < s; i++){
         cout<<arr[i]<<"\n";//display array value
     }
+        */
+
+        int a[5];
+
+        for(auto &x :a)
+        {
+            cin>>x;
+        }
+        for(auto &x :a)
+        {
+            cout<<x;
+        }
+
+
 }
