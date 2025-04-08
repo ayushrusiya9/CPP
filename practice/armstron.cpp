@@ -7,15 +7,15 @@ int main()
     int n,a,b = 0,k = 0;
     cout<<"Enter number\n";//153
     cin>>n;
-    k = n;
+    // k = n;
     while(n > 0)
     {
       a = n % 10;
       b = b + (a * a * a);
       n = n / 10;
     }
-
-    if (k == b)
+ cout<<b;
+   /* if (k == b)
     {
         cout<<"Number is armstrom\n";
     }
@@ -23,6 +23,6 @@ int main()
     {
         cout<<"Not armstrom\n";
     }
-    
+    */
     
 }

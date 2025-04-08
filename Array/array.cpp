@@ -5,7 +5,7 @@ int main()
 {
     /*
     int arr[10] =  {};//stored rest values are 0
-    // int arr[10];//stored garbage value
+    // int arr[10];//stored garbage value 
     int s = sizeof(arr)/sizeof(arr[0]);//formula to calculate lenght of array
     cout<<"Size of array"<<s<<"\n";
     // arr[5] = 500;//edit value
@@ -18,6 +18,8 @@ int main()
         cout<<arr[i]<<"\n";//display array value
     }
         */
+
+        // array is very
 
         int a[5];
 

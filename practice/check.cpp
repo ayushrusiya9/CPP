@@ -8,7 +8,7 @@ int main() {
 
     // If number is less than or equal to 1, it's not prime
     if (num <= 1) {
-        cout << num << " is not a prime number." << endl;
+        cout << num << " is not a  number." << endl;
     }
     // If number is 2, it's prime (the only even prime number)
     else if (num == 2) {
