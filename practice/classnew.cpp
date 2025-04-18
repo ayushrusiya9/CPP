@@ -2,8 +2,7 @@
 using namespace std;
 
 
-int main()
-{
+int main(){
 
 if(8,0){
     cout<<"aLLOWES";
