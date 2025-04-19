@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
 if(8,0){
-    cout<<"aLLOWES";
+    cout<<"Allowed";
 }
 else{
     cout<<"not allow";
