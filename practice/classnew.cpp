@@ -8,6 +8,6 @@ if(8,0){
     cout<<"Allowed";
 }
 else{
-    cout<<"not allow";
+    cout<<"Not Allowed";
 }
 }
