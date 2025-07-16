@@ -25,7 +25,7 @@ int main()
     cout << "Enter number: ";
     cin >> num;
     //check
-
+    //new check
     // Check if the input is valid
     if(cin.fail()) {
         cout << "Invalid input! Please enter a valid integer." << endl;
