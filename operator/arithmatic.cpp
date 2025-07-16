@@ -24,6 +24,7 @@ int main()
     int num;
     cout << "Enter number: ";
     cin >> num;
+    //check
 
     // Check if the input is valid
     if(cin.fail()) {
