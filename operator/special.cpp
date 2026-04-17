@@ -14,6 +14,7 @@ int main()
   int a = 10;// a is anormal veriable
   int &b = a;//b is A REFFERENCE veriable
 
+  int c = 90;// c is anormal veriable
   cout<<"a="<<a<<"\n";
   cout<<"b="<<b<<"\n";
 
