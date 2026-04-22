@@ -33,7 +33,7 @@ int main()
     }
 
     int a = num / 100;  // Extract hundreds place
-    int b = num % 100;  // Get last two digits
+    // int b = num % 100;  // Get last two digits
     int c = b / 10;     // Extract tens place
     int d = b % 10;     // Extract ones place
 
